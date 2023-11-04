@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;  
+}
+
+.bg-grad {
+  background: linear-gradient(to top, #40ff73 0%, #fcf868 40%);
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
