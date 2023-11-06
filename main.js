@@ -43,7 +43,7 @@ function init() {
 
   //Load model
   let loader = new GLTFLoader();
-  loader.load('./assets/elf-house/scene.gltf', function (gltf) {
+  loader.load('./elf-house/scene.gltf', function (gltf) {
     scene.add(gltf.scene);
     house = gltf.scene.children[0];
     animate();
